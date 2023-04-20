@@ -4,7 +4,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav{
+    background-color: indigo;
+}
 
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.nav-item a{
+    font-weight: bold;
+    color: white !important;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
@@ -54,8 +74,8 @@
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-around;
-    height: 8vh;
-    background-color: aqua;
+    height: 14vh;
+    background-color: indigo;
     
     
 }
