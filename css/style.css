@@ -9,7 +9,7 @@ body{
 }
 
 .nav{
-    background-color: indigo;
+    background-color: indigo !important;
 }
 
 .foto{
@@ -20,18 +20,22 @@ body{
     
 }
 
+
+
 .nav-item a{
     font-weight: bold;
-    color: white !important;
+    color: white;
 }
 
 .titulo-1{
+    padding-top: 15px;
+    text-decoration: underline;
     text-align: center;
     font-weight: bold;
     color: blueviolet;
 }
 
-h2{
+.h2{
     font-weight: bold;
     text-align: center;
 }

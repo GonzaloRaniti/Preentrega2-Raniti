@@ -12,50 +12,61 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg nav nav-ul">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
             <div class="container-fluid">
-                <img src="./recursos/favicon.png" alt="SLP" width="50px">
+                <a class="navbar-brand" href="#">
+                    <img src="./recursos/favicon.png" alt="slp" width="50px">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active nav-item" aria-current="page" href="./index.html">INICIO</a>
+                            <a class="nav-link active text-white" aria-current="page" href="./index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/boca-juniors.html">BOCA
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/boca-juniors.html">BOCA
                                 JUNIORS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/river-plate.html">RIVER
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/river-plate.html">RIVER
                                 PLATE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/racing-club.html">RACING
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/racing-club.html">RACING
                                 CLUB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
+                            <a class="nav-link active text-white" aria-current="page"
                                 href="./pages/independiente.html">INDEPENDIENTE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/contacto.html">CONTACTANOS</a>
                         </li>
+
                     </ul>
+
                 </div>
             </div>
         </nav>
+
     </header>
 
     <main>
-        <h1 class="titulo-1">SONRIE LA PELOTA</h1>
-        <div class="container foto">
 
-            <img class="column" src="./recursos/somos rivales no enemigos.jpg" alt="hinchadas unidas" width="400px">
-            <img class="column" src="./recursos/futbol-1-kU3C--1200x630@abc.jpg" alt="Futbol" width="474px">
+        <h1 class="titulo-1">SONRIE LA PELOTA</h1>
+
+
+        <div class="container foto">
+            <div class="row">
+                <img class="col-sm-12 col-lg-6" src="./recursos/somos rivales no enemigos.jpg" alt="hinchadas unidas"
+                    width="400px">
+                <img class="col-sm-12 col-lg-6" src="./recursos/futbol-1-kU3C--1200x630@abc.jpg" alt="Futbol"
+                    width="474px">
+            </div>
         </div>
         <section class="parrafo-1">
             <p>En esta página vas a poder visualizar la historia de cuatro de los grandes equipos de nuestro fútbol.
@@ -64,7 +75,7 @@
                 de Instagram</p>
         </section>
 
-        <h2>¿QUIENES SOMOS?</h2>
+        <h2 class="h2">¿QUIENES SOMOS?</h2>
         <section class="titulo"></section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat ratione, libero nam magni
             deleniti
@@ -87,6 +98,7 @@
             tempora impedit voluptas ullam. Consectetur, tempora facere.</p>
         </section>
     </main>
+
 
 
     <footer class="footer">
