@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: darkgray;
+}
+
 .nav{
     background-color: indigo;
 }
@@ -21,9 +25,20 @@
     color: white !important;
 }
 
+.titulo-1{
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+}
+
 h2{
     font-weight: bold;
     text-align: center;
+}
+
+.parrafo-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -91,4 +106,5 @@ h2{
 
 .ul-footer li a{
     color: black;
+    font-weight: bold;
 }
