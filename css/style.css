@@ -40,11 +40,34 @@ body{
     text-align: center;
 }
 
+.boca{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 15px;
+    color: blueviolet;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* MIRAR ESTE ITEM */
+
 .parrafo-1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
+.form{
+    width: 30%;
+    padding: 50px 0;
+}
 
 
 
