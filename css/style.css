@@ -5,12 +5,14 @@
 }
 
 body{
-    background-color: darkgray;
+    background-color: rgb(236, 241, 252);
 }
 
 .nav{
     background-color: indigo !important;
+    
 }
+
 
 .foto{
     display: flex;
