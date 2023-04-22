@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
+
 
 body{
     background-color: rgb(236, 241, 252);
@@ -56,6 +58,7 @@ body{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin: 100px 35px;
     
 }
 
@@ -69,6 +72,24 @@ body{
 .form{
     width: 30%;
     padding: 50px 0;
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.card-title:hover{
+    background-color: blue;
+    color: white;    
+}
+
+.boton:hover{
+    color: yellow;
+    font-weight: bold;
+    transform: rotate(.5s);
 }
 
 
