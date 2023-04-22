@@ -14,6 +14,9 @@ body {
     background-color: indigo !important;
 
 }
+
+/* BOCA JUNIORS */
+
 /* acomodar mi titulo.*/
 .escudo {
     display: flex;
@@ -37,7 +40,7 @@ body {
     transition: 2s;
 }
 
-.escudo-river{
+.escudo-river {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -53,10 +56,11 @@ body {
     color: red;
 }
 
-.escudo-river:hover{
+.escudo-river:hover {
     transform: scale(1.2) translate(10px);
     transition: 2s;
 }
+
 
 
 
@@ -83,12 +87,16 @@ body {
     color: blueviolet;
 }
 
+.card{
+    display: flex;
+}
+
 .h2 {
     font-weight: bold;
     text-align: center;
 }
 
-.h2:hover{
+.h2:hover {
     color: rgb(86, 192, 60);
 }
 
@@ -136,7 +144,7 @@ body {
     border: 2px solid black;
 }
 
-.btn-river:hover{
+.btn-river:hover {
     color: red;
     font-weight: bold;
     border: 2px solid white
@@ -150,53 +158,99 @@ body {
     align-items: center;
 }
 
-.titulo-2{
+.titulo-2 {
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
 
-.titulo-2:hover{
+.titulo-2:hover {
     background-color: yellow;
     color: blue;
 }
 
-.titulo-3{
+.titulo-3 {
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.titulo-3:hover{
+.titulo-3:hover {
     background-color: red;
     color: white;
 }
 
-.flex-river{
+.flex-river {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: stretch;
-    animation-name: girando;
+    animation-name: agrandando;
     animation-duration: 1s;
     animation-iteration-count: 2;
     animation-delay: 5s;
     font-weight: bold;
     padding-top: 15px;
     color: red;
-    
-    
+
+
 }
 
-.flex-river:hover{
+.flex-river:hover {
+    transform: scale(1.2) translate(10px);
+    transition: 10s;
+}
+
+.flex-river img {
+    height: 130px;
+    margin: 15px;
+
+}
+
+/* RACING CLUB */
+
+.escudo-racing{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    /* aplicar animacion */
+    animation-name: girando;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-delay: 5s;
+    font-weight: bold;
+    padding-top: 15px;
+    color: aqua;
+}
+
+.escudo-racing:hover{
     transform: scale(1.2) translate(10px);
     transition: 2s;
 }
 
-.flex-river img{
-    height: 150px;
-    margin: 90px;
+
+.table{
+    margin: 50px;
+}
+
+.titulo-4{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo-4:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.parrafo-racing{
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
 }
 
 
