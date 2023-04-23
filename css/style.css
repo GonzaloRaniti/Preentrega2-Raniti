@@ -380,5 +380,9 @@ body {
     }
 }
 
-
+@media (max-width:800px){
+    .mq-inedex{
+        align-items:center;
+    }
+}
 
