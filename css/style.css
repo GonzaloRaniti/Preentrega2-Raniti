@@ -66,6 +66,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 50px;
+    max-width: 80%;
 
 }
 
@@ -211,7 +212,7 @@ body {
 
     margin: 15px;
     max-width: 30%;
-    
+
 }
 
 /* RACING CLUB */
@@ -367,10 +368,18 @@ body {
 }
 
 
+@media (max-width:574px) {
+    .parrafo-1 {
+
+        color: blueviolet;
+        font-weight: normal;
+    }
+
+}
+
+
 @media (max-width:800px) {
     .imagen {
-        /* display: flex; */
-        /* justify-content: space-evenly; */
         align-items: center;
         flex-direction: column;
 
