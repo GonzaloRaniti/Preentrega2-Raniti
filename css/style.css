@@ -368,14 +368,20 @@ body {
 }
 
 
-@media (max-width:574px) {
+@media (max-width:470px) {
     .parrafo-1 {
 
         color: blueviolet;
         font-weight: normal;
     }
 
+    .foto{
+        width: 30%;
+    }
+
 }
+
+
 
 
 @media (max-width:800px) {
